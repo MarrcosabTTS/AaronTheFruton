@@ -1,3 +1,16 @@
+if(instance_exists(obj_dialog)){
+    exit;
+}
+
+if(keyboard_check_pressed(vk_space)){
+    create_dialog([
+    {
+        name: "Level UP",
+        msg: "Me gustas las tetarracas"
+    }
+    ])
+}
+
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
