@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"README",
+  "name":"README",
+  "parent":{
+    "name":"RPGordi",
+    "path":"RPGordi.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
