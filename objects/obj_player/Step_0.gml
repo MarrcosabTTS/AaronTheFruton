@@ -62,10 +62,26 @@ if (keyboard_check_pressed(ord("P"))) {
     _inst.image_angle = facing;
     _inst.damage *= damage;
 }
+if (keyboard_check_pressed(ord("O"))) {
+    if (has_ammo && trabuco_cooldown_timer <= 0) {
+        var _inst = instance_create_depth(x, y, depth, obj_bullet);
+        _inst.direction = facing; // Pasar la dirección al proyectil
+        _inst.damage = trabuco_damage;
+        _inst.tilemap = tilemap; // Pasar el tilemap al proyectil
+        
+        var _flash = instance_create_depth(x, y, depth, obj_flash);
+        _flash.image_angle = facing;
+    } else {
+        create_dialog([
+            {
+                name: "Trabuco",
+                msg: "No tienes munición!"
+            }
+        ]);
+    }
+}
 
-// Efecto visual de invencibilidad
-if (is_invincible) {
-    image_alpha = 0.5; // Hacer al jugador semi-transparente
-} else {
-    image_alpha = 1.0; // Restaurar la opacidad normal
+// Reducir el cooldown del trabuco
+if (trabuco_cooldown_timer > 0) {
+    trabuco_cooldown_timer--;
 }

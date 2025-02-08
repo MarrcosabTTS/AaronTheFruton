@@ -31,8 +31,6 @@ function add_xp(_xp_to_add) {
 
         hp_total += 5;
         hp = hp_total;
-        damage += 0.5;
-
         create_dialog([
             {
                 name: "Level UP",
@@ -41,3 +39,9 @@ function add_xp(_xp_to_add) {
         ]);
     }
 }
+
+// Variables del trabuco
+trabuco_damage = 5;
+trabuco_cooldown = 30;
+trabuco_cooldown_timer = 0;
+has_ammo = false; // Inicialmente sin munición

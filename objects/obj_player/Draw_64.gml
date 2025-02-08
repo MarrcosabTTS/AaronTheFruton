@@ -24,3 +24,7 @@ draw_text(_dx + _barw/2, _dy + _barh/2, $"LEVEL {level}");
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+// Estado de la munición
+var _ammo_text = has_ammo ? "Munición: Sí" : "Munición: No";
+draw_text(16, 100, _ammo_text);
