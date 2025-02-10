@@ -11,6 +11,7 @@ char_colors = {
     "Level UP": c_yellow,
     "Juja": c_green,
     "Aaron": c_orange,
+    "Trabuco": c_lime
     "Trabuco": c_red
 }
 

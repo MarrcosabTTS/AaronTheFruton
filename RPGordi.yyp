@@ -47,6 +47,7 @@
     {"id":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},},
     {"id":{"name":"obj_enemy2","path":"objects/obj_enemy2/obj_enemy2.yy",},},
     {"id":{"name":"obj_flash","path":"objects/obj_flash/obj_flash.yy",},},
+    {"id":{"name":"obj_impact_effect","path":"objects/obj_impact_effect/obj_impact_effect.yy",},},
     {"id":{"name":"obj_npc_PADRE","path":"objects/obj_npc_PADRE/obj_npc_PADRE.yy",},},
     {"id":{"name":"obj_npc1","path":"objects/obj_npc1/obj_npc1.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
