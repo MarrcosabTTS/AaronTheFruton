@@ -10,7 +10,8 @@ function create_dialog(_messages){
 char_colors = {
     "Level UP": c_yellow,
     "Juja": c_green,
-    "Aaron": c_orange
+    "Aaron": c_orange,
+    "Trabuco": c_lime
 }
 
 welcome_dialog = [

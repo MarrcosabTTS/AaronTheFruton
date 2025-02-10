@@ -17,5 +17,14 @@ if (_collision != noone) {
             alarm[1] = 20;
         }
     }
-    instance_destroy();
+       
+        instance_destroy(); // Destruir la bala después del impacto
 }
+
+// Verificar colisión con paredes
+var _wall_collision = instance_place(x, y, tilemap);
+if (_wall_collision != noone) {
+    show_debug_message("Bala impactó con una pared."); // Depuración
+    instance_destroy(); // Destruir la bala al impactar con la pared
+}
+
