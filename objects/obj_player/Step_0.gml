@@ -57,11 +57,20 @@ if (!is_dashing) {
     }
 }
 
+if (is_invincible) {
+    image_alpha = 0.5; // Hacer al jugador semi-transparente
+}
+else {
+    image_alpha = 1.0; // Restaurar la opacidad normal
+}
+
 if (keyboard_check_pressed(ord("P"))) {
     var _inst = instance_create_depth(x, y, depth, obj_attack);
     _inst.image_angle = facing;
     _inst.damage *= damage;
 }
+
+// Trabuco
 if (keyboard_check_pressed(ord("O"))) {
     if (has_ammo && trabuco_cooldown_timer <= 0) {
         var _inst = instance_create_depth(x, y, depth, obj_bullet);
@@ -71,11 +80,12 @@ if (keyboard_check_pressed(ord("O"))) {
         
         var _flash = instance_create_depth(x, y, depth, obj_flash);
         _flash.image_angle = facing;
-    } else {
+    }
+    else {
         create_dialog([
             {
                 name: "Trabuco",
-                msg: "No tienes munición!"
+                msg: "¡No tienes munición!"
             }
         ]);
     }

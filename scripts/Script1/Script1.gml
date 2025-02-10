@@ -12,6 +12,7 @@ char_colors = {
     "Juja": c_green,
     "Aaron": c_orange,
     "Trabuco": c_lime
+    "Trabuco": c_red
 }
 
 welcome_dialog = [

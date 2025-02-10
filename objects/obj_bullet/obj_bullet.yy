@@ -34,6 +34,8 @@
   "spriteId":{
     "name":"spr_box",
     "path":"sprites/spr_box/spr_box.yy",
+    "name":"INeedMoreBulletse",
+    "path":"sprites/INeedMoreBulletse/INeedMoreBulletse.yy",
   },
   "spriteMaskId":null,
   "visible":true,
