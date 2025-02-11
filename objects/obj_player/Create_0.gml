@@ -42,6 +42,6 @@ function add_xp(_xp_to_add) {
 
 // Variables del trabuco
 trabuco_damage = 5;
-trabuco_cooldown = 30;
+trabuco_cooldown = 60;
 trabuco_cooldown_timer = 0;
 has_ammo = false; // Inicialmente sin munición

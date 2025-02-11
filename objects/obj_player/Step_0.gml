@@ -80,14 +80,8 @@ if (keyboard_check_pressed(ord("O"))) {
         
         var _flash = instance_create_depth(x, y, depth, obj_flash);
         _flash.image_angle = facing;
-    }
-    else {
-        create_dialog([
-            {
-                name: "Trabuco",
-                msg: "¡No tienes munición!"
-            }
-        ]);
+
+        trabuco_cooldown_timer = trabuco_cooldown; // Iniciar el cooldown del trabuco
     }
 }
 

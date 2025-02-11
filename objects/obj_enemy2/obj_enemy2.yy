@@ -6,7 +6,7 @@
   "name":"obj_enemy2",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_PADRE","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"propertyId":{"name":"hp","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_PADRE","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"propertyId":{"name":"damage","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_PADRE","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"propertyId":{"name":"damage","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_PADRE","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_PADRE","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"propertyId":{"name":"xp_value","path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"60",},
   ],

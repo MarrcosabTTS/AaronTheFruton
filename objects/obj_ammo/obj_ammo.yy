@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_lava",
-    "path":"sprites/spr_lava/spr_lava.yy",
+    "name":"TrabucoDeNegra",
+    "path":"sprites/TrabucoDeNegra/TrabucoDeNegra.yy",
   },
   "spriteMaskId":null,
   "visible":true,
