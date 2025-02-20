@@ -11,7 +11,8 @@ char_colors = {
     "Level UP": c_yellow,
     "Juja": c_green,
     "Aaron": c_orange,
-    "Trabuco": c_lime
+    "Trabuco": c_lime,
+    "Cam": c_red
 }
 
 welcome_dialog = [
@@ -31,4 +32,16 @@ welcome_dialog = [
     name: "Aaron",
     msg: "Joder pero wtf chat cuanto gitano, voy a comerme un mango."
 },
+]
+
+
+cam_diag1 = [
+{
+    name: "Cam",
+    msg: "Tetarracas"
+},
+{
+    name: "Cam",
+    msg: "Tetarracas"
+}
 ]

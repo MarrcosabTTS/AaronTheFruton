@@ -1,3 +1,5 @@
+draw_shadow();
+
 draw_self();
 
 if(can_talk && !instance_exists(obj_dialog)){

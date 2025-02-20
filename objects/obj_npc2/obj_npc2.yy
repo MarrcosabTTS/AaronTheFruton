@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy1",
+  "%Name":"obj_npc2",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy1",
+  "name":"obj_npc2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_PADRE",
-    "path":"objects/obj_enemy_PADRE/obj_enemy_PADRE.yy",
+    "name":"obj_npc_PADRE",
+    "path":"objects/obj_npc_PADRE/obj_npc_PADRE.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"spr_talk",
+    "path":"sprites/spr_talk/spr_talk.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
